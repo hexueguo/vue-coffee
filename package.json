@@ -1,0 +1,28 @@
+{
+  "name": "vue-coffee",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "^3.2.20",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.1",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "eslint": "^8.39.0",
+    "sass": "^1.62.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vite-plugin-mkcert": "^1.14.1",
+    "vue-tsc": "^1.4.2"
+  }
+}
